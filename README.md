@@ -2,4 +2,6 @@
 Here is the repository for all of our resources for the final project :)
 
 
-We are planning to look at a kaggle dataset that combines data collected from these two original locations: https://opendata.minneapolismn.gov/datasets/police-stop-data/explore and https://opendata.minneapolismn.gov/datasets/police-use-of-force. Both contain information about police stops and violence that occured specifically in Minneapolis from 2016 to late 2024 for stops, and 2004 to late 2024 for violence. 
+We are planning to look at a kaggle dataset that combines data collected from the municipal database found here: https://opendata.minneapolismn.gov/datasets/police-use-of-force. The data contain information about police violence that occured specifically in Minneapolis from 2004 to late 2024.
+
+We first cleaned the data, getting rid of null values and grouping columns where necessary, and then built several kind of machine learning models thast predict the type of force used on a given subject with the end goal of understanding feature importance.
